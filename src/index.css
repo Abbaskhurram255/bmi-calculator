@@ -1,0 +1,14 @@
+
+body {
+  
+  padding: 0;
+  font-family: 'Calibri';
+ background: linear-gradient(to right, rgba(0,255,255,0.4), rgba(40,180,1650,0.6));
+        margin: 80px;}
+ #root {
+        position: absolute;
+        color: rgba(175,40,130,0.9);
+        right: 70vh;
+        bottom: 15vh;
+        font-size: 18px;
+      }
