@@ -4,11 +4,38 @@ body {
   padding: 0;
   font-family: 'Calibri';
  background: linear-gradient(to right, rgba(0,255,255,0.4), rgba(40,180,1650,0.6));
-        margin: 80px;}
- #root {
+        margin: 80px;
+      }
+
+#root {
         position: absolute;
-        color: rgba(175,40,130,0.9);
+        color: black;
         right: 70vh;
         bottom: 15vh;
         font-size: 18px;
+        
+     top: 7vh;
       }
+
+#result {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 10%;
+  position: relative;
+  left: 25px;
+  text-align: center;
+  color: black;
+}
+
+ @media screen and (max-width: 768px) {
+
+  
+   #root {
+     position: absolute;
+     left: 7vh;
+     display: inline-table;
+     flex-direction: row; 
+     font-size: 0.9rem;
+   }
+ }

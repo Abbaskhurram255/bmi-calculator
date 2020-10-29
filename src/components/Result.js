@@ -3,9 +3,9 @@ import React from 'react';
 class Result extends React.Component {
   render() {
     return (
-      <div>
+      <div id="result">
         <div>
-          <strong>{this.getValue()}</strong>
+          <strong>{this.getValue()}</strong>&nbsp;
         </div>
         <div>
           {this.getDescription()} BMI
